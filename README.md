@@ -5,7 +5,9 @@
 # 🖱️ 𝙏𝙚𝙘𝙝 𝙨𝙖𝙡𝙚𝙨 𝙧𝙚𝙥𝙤𝙧𝙩
 
 <p align="center">
-For this project, I combined three datasets with information about sellers, articles, and orders of one-month trade log, to answer some questions. My analytical process involved using Pandas for exploratory data analysis, NumPy for analysis of specific columns, and Matplotlib/Seaborn for visualization of results.
+For this project, I combined three datasets with information about sellers, articles, and orders of one-month trade log, to answer some questions. My analytical process involved using Pandas for exploratory data analysis, NumPy for analysis of specific columns, and Matplotlib/Seaborn for visualization of results. 
+<br>
+First, I scoped and collected the necessary data, followed by data exploration and preparation. Next, I defined the model and pipelines necessary to achieve the desired results. Using these tools, I was able to answer the questions and draw appropriate conclusions.
 </p>
 <br>
 <table align="center">
@@ -21,51 +23,39 @@ For this project, I combined three datasets with information about sellers, arti
 
 ### The sources of data used in this project were:
 
-✔️ Orders file: orders.csv
+✔️ articles.db: DB with articles data
 
-✔️ Google Sheets: bbdd_integrador.gsheet
+✔️ sellers.xlsx: Excel file with sellers data
 
-### The client requested the following information to be displayed on the dashboard:
+✔️ orders.csv: CSV file with sales records withing the month
 
-✔️ Total number of orders
+### The client requested the following information to be answered:
 
-✔️ Total sales amount
+✔️ What is the best-selling item? (in units)
 
-✔️ Sales by article
+✔️ Which item provided us with the highest revenue?
 
-✔️ Total sales amount by article and category
+✔️ Which seller should be awarded the “Best Seller of the Month” bonus?
 
-✔️ Total sales amount by month
+✔️ Are there significant variations in sales throughout the month?
 
-✔️ Number of customers
+✔️ What were the top 5 countries in terms of purchases, and what was the total amount of their purchases?
 
-✔️ Number of countries
+✔️ Notebooks or CPUs? Which did the top 5 purchasing countries buy more of?
 
-✔️ Top 5 customers and their total sales amounts
+### Development:
 
-✔️ Top 5 countries and their total sales amounts
+✔️ To begin with, I was tasked with collecting and organizing data from various sources, including CSV and Excel files, as well as a database. To accomplish this, I utilized a range of Python libraries, such as Pandas, SQLite3, and openpyxl. During the exploratory analysis, I assessed the data for various characteristics, such as the number of columns and entries, null values, data types, and unique indexes, and subsequently prepared the data for analysis. To proceed, I merged all the data frames into a single one for ease of use.
 
-✔️ Top 5 customers by country and their total amounts
+✔️ In the analytical section, I was tasked with answering four questions using both analytical and graphical approaches. Additionally, I had to formulate three new questions and provide responses to them.
 
-✔️ Top 5 countries with their customers and total amounts
-
-### Features:
-
-✔️ The customer's requests were addressed through dynamic data visualizations that allow for selection, filtering, and detailed information display on hover.
-
-✔️ A simple yet visually appealing design was used to present the data.
-
-✔️ The dashboard allows filtering by time period, article and/or country.
-
-✔️ Result cards were also used to display specific information.
-
-✔️ For measuring different dimensions, bar plots were utilized and plotted horizontally for easier label reading.
-
-✔️ Dynamic tables with filters were used to provide more detailed information.
+✔️ Finally, I presented the conclusions and recommendations of the project in a clear and concise manner.
 
 ### Resources used:
 
-Google Sheets | Google Data Studio
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+
+I used Python and its libraries Pandas, NumPy, and Matplotlib/Seaborn for data analysis and visualization
 
 ### I'd love to hear from you!
 
