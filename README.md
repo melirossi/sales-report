@@ -7,13 +7,14 @@
 <p align="center">
 For this project, I combined three datasets with information about sellers, articles, and orders of one-month trade log, to answer some questions. My analytical process involved using Pandas for exploratory data analysis, NumPy for analysis of specific columns, and Matplotlib/Seaborn for visualization of results. 
 <br>
+<br>
 First, I scoped and collected the necessary data, followed by data exploration and preparation. Next, I defined the model and pipelines necessary to achieve the desired results. Using these tools, I was able to answer the questions and draw appropriate conclusions.
 </p>
 <br>
 <table align="center">
   <tr>
-    <td><img src="https://github.com/melirossi/fashion-sales-report/blob/master/Dashboard%20a.JPG" alt="dashboard" width="300"></td>
-    <td><img src="https://github.com/melirossi/fashion-sales-report/blob/master/Dashboard%20b.JPG" alt="dashboard" width="300"></td>
+    <td><img src="https://github.com/melirossi/tech-sales-report/blob/master/images/portada.JPG" alt="dashboard" width="500"></td>
+    <td><img src="https://github.com/melirossi/tech-sales-report/blob/master/images/resolucion%20gr%C3%A1fica.JPG" alt="dashboard" width="500"></td>
   </tr>
 </table>
 <br>
